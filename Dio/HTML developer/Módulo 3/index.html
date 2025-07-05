@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <figure>
+      <img src="medium.png" alt="imagem de um corredor da itália" width="500" />
+      <figcaption>
+        <p>
+          Imagem de um corredor da Itália, com uma estrada cercada por árvores e
+          montanhas ao fundo.
+        </p>
+        <p>
+          Fonte:
+          <a href="https://www.pexels.com/photo/road-between-trees-164077/"
+            >Pexels</a
+          >
+        </p>
+      </figcaption>
+    </figure>
+    <hr />
+    <h3>Diferença entre figure e picture</h3>
+    <picture>
+      <source srcset="small.png" media="(min-width: 700px)" />
+
+      <img src="medium.png" alt="corredor da itália" width="500" />
+    </picture>
+  </body>
+</html>

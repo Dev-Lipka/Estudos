@@ -1,0 +1,49 @@
+body {
+  background-color: lightgreen;
+}
+/*cor pode ser transparente*/
+span {
+  color: transparent;
+}
+li {
+  margin-bottom: 10px;
+}
+/*Existem 140 cores já predefinidas no css*/
+.predefinido {
+  color: white;
+  background-color: blue;
+}
+/*Cor em current color, segue o que a cor predefinida*/
+.currentcolor {
+  color: blue;
+  border: 1px solid currentColor;
+}
+/*Cor em RGB(red,green,blue) varia de 0 a 255 em cada cor*/
+.rgb {
+  color: rgb(255, 100, 90);
+}
+/*Cor em RGBA(red,green,blue) varia de 0 a 255 em cada cor*/
+.rgba {
+  background-color: rgba(233, 177, 180, 0.8);
+}
+/*Cor em Hexadecimal funciona da seguinte maneira a tralha(#) indica a cor hexa, são conjuntos de 2 dígitos pra R ,G e B.*/
+/*As cores vão de 0 a F que significa 15 é a intensidade da cor*/
+.hexa {
+  background-color: #6633f1;
+}
+/*Hexadecimal com Transparência, os dois dígitos finais, fica rr,gg,bb,tt*/
+.HexaTrans {
+  background-color: #11339980;
+}
+/*Com em Hsl, onde H significa matiz, S saturação e L brilho */
+/* H vai de 0 a 360 graus onde 0 é vermelho ou 360, 120 é verde, 240 azul*/
+/* S vai de 0 a 100%*/
+/* L vai de 0 a 100%*/
+.HSL {
+  background-color: hsl(0, 90%, 60%);
+}
+
+/*e temos o hsla que é com transparência*/
+.HSLA {
+  background-color: hsla(0, 90%, 60%, 0.5);
+}

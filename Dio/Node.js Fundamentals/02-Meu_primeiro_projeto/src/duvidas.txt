@@ -1,0 +1,31 @@
+todo arquivo de código vai dentro da pasta src, e todo arquivo de configuração, vai fora da pasta src
+
+comandos terminal
+
+navegação 
+------------------------------
+del * - deleta arquivos de um apasta (todos! cuidado!)
+ls - lista os arquvios de um diretório
+cls - clear (limpa o terminal)
+cd - muda o diretório
+mkdir - cria diretorio
+code - abrir o vscode na pasta
+code. - abre o vscode
+
+npm e node
+------------------------
+npm init -y inicia um projeto node sem as perguntas
+node[arquivo] executa o arquivo js expecificado
+node --watch monitora o arquivo expecificado (vigia) crtl +c desliga ele
+
+
+
+dúvidas
+-----------------------
+ // //if ternário
+      // character1.PONTOS -=
+      //   powerResult1 > powerResult2 && character1.PONTOS > 0 ? 1 : 0;
+      // character2.PONTOS -=
+      //   powerResult2 > powerResult1 && character2.PONTOS > 0 ? 1 : 0;
+
+      //if condicional dupla é pssível tbm. Exemplo if(condição_a === condição_b && condição_c > 0){bloco de comando do que fazer em caso verdadeiro}

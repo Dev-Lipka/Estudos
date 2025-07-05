@@ -1,0 +1,27 @@
+img {
+  width: 300px;
+  height: 400px;
+  border: 1px solid #222;
+}
+/*object-fit -- por padrão se tem o object-fit: fill*/
+/*object-fit:fiil faz com que a mídia seja alocada 100% num espaço (geralmente uma div ) determinado. Se uma div for configurada com 200x200 e a imagem tiver 180x230 ela sera comprimida e esticada para caber*/
+/*object-fit:contain faz com que a mídia caiba no lugar determinado mas sem perder as proporções da mídia, geralmente o fundo fica aparecendo*/
+/*object-fit:cover  faz com que a mídia vai preencher todo o container mas se precisar vai fazer cortes na imagens*/
+/*object-fit:none  nao faz nenhum ajuste*/
+/*object-fit:scale-down  compara none e contain e ve qual a menor e usa*/
+#contain {
+  object-fit: contain;
+}
+#cover {
+  object-fit: cover;
+}
+#none {
+  object-fit: none;
+}
+#scale-down {
+  object-fit: scale-down;
+}
+#position {
+  object-fit: cover;
+  object-position: top right;
+}

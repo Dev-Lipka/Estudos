@@ -1,0 +1,16 @@
+/*Combinador Descendente*/
+#one p {
+  color: red;
+}
+/*Combinador filho*/
+div > p {
+  background-color: lightblue;
+}
+/*Combinador irmão adjascente(do lado)*/
+div + p {
+  color: limegreen;
+}
+/*combinador irmão geral*/
+p ~ p {
+  text-transform: uppercase;
+}

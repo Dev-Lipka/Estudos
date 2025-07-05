@@ -1,0 +1,48 @@
+/*Seletor de tag*/
+p {
+  color: rgb(252, 189, 164);
+}
+/*Seletor de universal*/
+* {
+  color: red;
+}
+/*Seletor de id*/
+#seletor {
+  color: blue;
+}
+/*Seletor de classe*/
+.seletor {
+  color: green;
+}
+/*Seletor de classe dupla*/
+.duploseletor {
+  color: blueviolet;
+}
+/*Seletor de atributo*/
+[title] {
+  color: lightsteelblue;
+}
+/*Seletor de atributo específco*/
+[title="atributoesp"] {
+  color: tomato;
+}
+/*Seletor de atributo buscando prefixo(começa com...) */
+[title^="com"] {
+  color: chartreuse;
+}
+/*Seletor de atributo buscando sulfixo(termina com...)*/
+[title$="al"] {
+  color: steelblue;
+}
+/*Seletor de atributo buscando em qualquer lugar que tenha o buscado*/
+[title*="ualq"] {
+  color: seagreen;
+}
+/*seletor de elemento com classe x */
+p.seletor {
+  font-style: italic;
+}
+/*seletor de hifen*/
+[title|="palavra"] {
+  color: darkred;
+}
